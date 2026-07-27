@@ -21,7 +21,8 @@ GAFBot is a multi-functional bot designed for Telegram account sellers.Use pytho
 
 GAFBot是针对Telegram号商的多功能Bot。使用Python语言。
 
-<img width="617" height="346" alt="image" src="https://github.com/user-attachments/assets/999a6cae-d787-46f1-ad7a-87d75a231169" />
+<img width="1280" height="587" alt="image" src="https://github.com/user-attachments/assets/2c4316a2-f900-4e6e-9839-d209b596eac5" />
+
 
 
 
