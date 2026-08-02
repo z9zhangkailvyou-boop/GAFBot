@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.env
+venv/
+orders.json
+users.json
+callback.log
+callback_notifications.json
+*.db

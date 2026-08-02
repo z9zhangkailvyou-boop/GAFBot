@@ -3,8 +3,19 @@ import logging
 import os
 import json
 import time
+import socket
 
 from okpay_sign import signed_request
+
+
+# 强制 requests 使用 IPv4：通过 monkey-patch urllib3
+import urllib3.util.connection
+_orig_allowed_gai_family = urllib3.util.connection.allowed_gai_family
+
+def _forced_ipv4():
+    return socket.AF_INET
+
+urllib3.util.connection.allowed_gai_family = _forced_ipv4
 
 ORDER_TIMEOUT = 300
 
